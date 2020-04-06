@@ -25,8 +25,9 @@ This implementation is subject to many improvements and it's proposed as fast pr
 
 ## Usage
 
-Just copy the scenes, scripts, prefabs and materials into your project folder assigning the prefabs to the script.
-You can use the provided scene or add a FPSController from the [Standard Assets](https://assetstore.unity.com/packages/essentials/asset-packs/standard-assets-for-unity-2017-3-32351) package and rename it to **Player**.
+If you want to try, there are some built versions for different platforms in the Build/ folder.
+
+To test the script, you need to copy the contents in the Assets/ folder: Scripts/, Prefabs/ and Materials/ into your project folder assigning the prefabs to the script public variables. The [Standard Assets](https://assetstore.unity.com/packages/essentials/asset-packs/standard-assets-for-unity-2017-3-32351) package should be imported in your Asset folder too and you must add a FPSController to a scene from the package and rename it to **Player**.
 
 ## Known issues
 
