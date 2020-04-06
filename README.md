@@ -2,10 +2,7 @@
 
 A maze generator algorithm using the [recursive backtracker](https://weblog.jamisbuck.org/2010/12/27/maze-generation-recursive-backtracking) algorithm. After the maze generation, the real maze is created using block prefabs where you can move using a FPS control. A starting point and an end point are also randomly created as a goal.
 
-<row style="display: flex; justify-content: space-around;">
-	<img src="Screenshots/firstPerson.png" style="height: 180px;" />
-	<img src="Screenshots/mazeImage.png" style="height: 180px;" />
-</row>
+<img src="Screenshots/firstPerson.png" align="left" width="405"/>	<img src="Screenshots/mazeImage.png" align="rigth" width="400"/>
 
 This implementation is subject to many improvements and it's proposed as fast prototyped example rather than an efficient solution. Even the connections created have an attached NOTICE stating that there are unused connections because of the way the maze is generated. It could probably be greatly improved an any pull request or advice will be appreciated :)
 
